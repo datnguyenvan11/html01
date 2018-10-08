@@ -1,0 +1,137 @@
+.no1 {
+	background-color: #ffffff;
+border: black 2px solid;
+height: 90px; 
+font-family: sans-serif;
+}
+.con1{
+	height: 120%
+	width: auto;
+	margin:18px 0px 65px 250px; 
+	font-size: 25px;
+}
+.con2 {
+
+	width:60px;
+	float: right;
+	margin:20px 10px 0px 0px; 
+	color: blue;
+	font-size: 15px;
+	text-decoration:underline;
+	border-right: black solid 2px;
+}
+.con3 {
+	float: right;
+	width:60px;
+	margin:20px 10px 0px 10px;
+	color: blue;
+	font-size: 15px;
+	text-decoration:underline;
+	border-right: black solid 2px;
+}
+.con4 {
+	float: right;
+	width:60px;
+	margin:20px 10px 0px 10px;
+	color: blue;
+	font-size: 15px;
+	text-decoration:underline;
+	border-right: black solid 2px;
+}
+.con5 {
+	float: right;
+	width:auto;
+	margin:20px 200px 0px 10px;
+	color: blue;
+	font-size: 15px;
+	text-decoration:underline
+}
+#anh1{
+	width: 60px;
+	vertical-align:middle;
+}
+.clear{
+	clear: both;
+}
+.no2 {
+	font-family: sans-serif;
+	color: white;
+	border: black 1px solid;
+	text-align: center;
+	background-color:#6fa8dc;
+	height: 69px;
+}
+.doan1{
+font-style: italic;
+	padding: 10px;
+	font-size: 18px;
+}
+.doan2{
+	padding: 0px;
+font-size: 16px;
+	margin: 0px 20px 10px 600px ;
+}
+.no3{
+	background-color: #ffffff;
+	font-family: Knewave;
+	border: black 2px solid;
+    height: 490px;
+    padding:10px;
+    font-weight: bold;
+    text-shadow: black 2px 4px 3px;
+}
+.no4{
+	font-family: sans-serif;
+	font-size: 13px;
+	color: white;
+	border: black 2px solid;
+	background-color: #6fa8dc;
+	height: 30px;
+}
+.doan3 {
+	font-size: 11px;
+	width: 21%;
+	float: left;
+	padding: 20px;
+	margin: 0px 10px 0px 170px ;
+}
+.doan4 {	
+	font-size: 11px;
+	width: 21%;
+	float: left;
+	padding: 20px;
+	margin: 0px 10px 0px 40px ;
+}
+.doan5{	
+	font-size: 11px;
+	width: 21%;
+	float: left;
+	padding: 20px;
+	margin: 0px 10px 0px 40px ;
+}
+.doan6{
+	margin: 0px 10px 30px 170px ;
+	font-size: 11px;
+	width: 21%;
+	float: left;
+	padding: 20px;
+}
+.doan7{	
+	font-size: 11px;
+	width: 21%;
+	float: left;
+	padding: 20px;
+	margin: 0px 10px 0px 40px ;
+}
+.doan8 {
+	text-align:center;
+	padding: 5px
+}
+p{
+	text-shadow: none;
+	font-weight: normal;
+	font-family: tahoma;
+	color: blue;
+	font-size: 17px;
+	text-decoration: underline;
+}
