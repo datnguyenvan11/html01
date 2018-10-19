@@ -1,0 +1,23 @@
+.form-group {
+    margin: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.danger-text {
+    color: red;
+}
+.success-text{
+    color: green;
+}
+
+.hidden-text {
+    display: none;
+}
