@@ -1,0 +1,13 @@
+.quay {
+
+    width: 100px;
+    position: fixed;
+    animation-name: quay;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes quay {
+    from {left: 94%;top:0px;}
+    to {left: 5%;top: 0px;}}
