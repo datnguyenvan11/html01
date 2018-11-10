@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí </title>
+    <link rel="stylesheet" href="thuchanh.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="row">
+    <div class="header col-12">
+        <div class="col-3">
+            <img class="logo" src="https://pbs.twimg.com/profile_images/1024304751314382848/eR3_ronC_400x400.jpg"
+                 alt="">
+            <p> Vị ngon trên từng ngón tay</p>
+        </div>
+        <div class="col-9">
+            <img class="banner"
+                 src="http://www.uplevo.com/img/designbox/thiet-ke-banner.png" alt="">
+        </div>
+    </div>
+</div>
+<h1>Đăng kí </h1>
+<div class="row">
+    <div class="container">
+        <form action="" name="register-form" method="post">
+            <div class="form-group">
+                <label>Họ và tên </label>
+                <input type="text" name="name" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+
+            </div>
+            <div class="form-group">
+
+                <label>Email</label>
+                <input type="email" name="email" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" name="phone" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+
+            </div>
+
+            <div class="form-group">
+                <label> Giới tính</label>
+                Nam <input type="radio" name="gender">
+                Nữ <input type="radio" name="gender">
+                Khác <input type="radio" name="gender">
+                <span class="danger-text hidden-text"></span>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Sở thích </label>
+                <input type="checkbox" name="checkbox" class="form-controls"> thể thao
+                <input type="checkbox" name="checkbox" class="form-controls"> phim ảnh
+                <input type="checkbox" name="checkbox" class="form-controls"> đọc sách
+                <input type="checkbox" name="checkbox" class="form-controls"> âm nhạc
+                <input type="checkbox" name="checkbox" class="form-controls"> khác
+
+            </div>
+            <div class="form-group">
+                <label>Giới thiệu bản thân </label>
+                <textarea name="gioithieu" id="" cols="40" rows="15"></textarea>
+            </div>
+            <div class="form-group">
+                <label>&nbsp;</label>
+                <input type="button" name="btn-submit" value="submit" class="form-controls">
+                <input type="reset" name="btn-reset" value="reset" class="form-controls">
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+<script src="thuchanh.js"></script>
+</body>
+</html>
