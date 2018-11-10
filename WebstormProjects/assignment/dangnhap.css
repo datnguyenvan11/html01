@@ -1,0 +1,131 @@
+body{
+    background-color: rgba(115, 115, 115, 0.89);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 78%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#button{
+    float: left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 5%;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+#\ dangki:hover{
+    opacity: 0.8;
+}
+#\ dangki{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 5%;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+}
+.container {
+    padding: 16px;
+    background-color: #f2f2f2;
+    width: 69%;
+    margin: auto;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.song-menu {
+    margin-top: 45px;
+    float: right;
+    margin-right: 70px;
+    padding-bottom: 25px;
+}
+
+.hearder {
+    background-color: rgba(124, 51, 255, 0.29);
+    position: fixed;
+    width: 100%;
+    margin-left: 0;
+}
+
+.logo {
+    margin-left: 50px;
+    color: rgba(124, 51, 255, 0.29);
+    margin-top: 24px;
+    border-radius: 5px;
+}
+
+.hearder a {
+    font-family: Freckle Face;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.ngan {
+    height: 160px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+label {
+    display: block;
+}
+
+.danger-text {
+    color: red;
+}
+
+.success-text {
+    color: green;
+}
+
+.hidden-text {
+    display: none;
+}
+a:hover{
+    color: #a8a8a8;
+}
+

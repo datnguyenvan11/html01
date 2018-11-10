@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập  </title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Fredericka+the+Great|Norican" rel="stylesheet">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5jXCnDCT8zdiobpYu5Gq5mXrqNH9vhA8csV3p5XV2Ydhv1Fmu">
+
+</head>
+<body>
+<div class="hearder">
+    <a href="mp3.html"><img class="logo" src="https://media1.tenor.com/images/93ad66075165597a05c16b4b6957dfea/tenor.gif?itemid=3427436"
+                            width="70px" alt=""></a>
+    <div class="song-menu">
+        <a href="mp3.html"> Trang chủ </a>
+        <!--<a href="dangki.html">Đăng kí </a>-->
+        <a href="dangnhap.html"> Đăng nhập </a>
+        <a href="taobaihat.html"> Thêm bài hát </a>
+        <a href="hienthibaihat.html"> Bài hát của bạn </a>
+    </div>
+</div>
+<div class="ngan"></div>
+
+<h1>Đăng nhập </h1>
+<div class="container">
+    <form action="" name="login-form">
+        <div class="container">
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Username" name="email" required>
+            <span class="danger-text hidden-text"></span>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <span class="danger-text hidden-text"></span>
+
+
+            <input type="button" name="btn-login" value="Đăng nhập" id="button">
+            <a href="dangki.html"> <input type="button" name= "btn-register " value="Đăng kí" id=" dangki"></a>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+    </form>
+</div>
+<script src="dangnhap.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Fredericka+the+Great|Norican" rel="stylesheet">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5jXCnDCT8zdiobpYu5Gq5mXrqNH9vhA8csV3p5XV2Ydhv1Fmu">
+
+    <title>Thêm bài hát </title>
+    <link rel="stylesheet" href="taobaihat.css">
+</head>
+<body>
+<div class="hearder">
+    <a href=""><img class="logo" src="https://media1.tenor.com/images/93ad66075165597a05c16b4b6957dfea/tenor.gif?itemid=3427436"
+                    width="70px" alt=""></a>
+    <div class="song-menu">
+        <a href="mp3.html"> Trang chủ </a>
+        <!--<a href="dangki.html">Đăng kí </a>-->
+        <a href="dangnhap.html"> Đăng nhập </a>
+        <a href="taobaihat.html"> Thêm bài hát </a>
+        <a href="hienthibaihat.html"> Bài hát của bạn </a>
+    </div>
+</div>
+<div class="ngan"></div>
+
+<h1>Post songs</h1>
+<form action="" name="song-form">
+    <div>
+        <label>Name</label>
+        <input type="text" name="name" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+    </div>
+    <div>
+        <label>Description</label>
+        <input type="text" name="description" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+    </div>
+    <div>
+        <label>Singer</label>
+        <input type="text" name="singer" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+    </div>
+    <div>
+        <label>Author</label>
+        <input type="text" name="author" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+
+    </div>
+    <div>
+        <label>Thumbnail</label>
+        <input type="text" name="thumbnail" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+    </div>
+    <div>
+        <label>Link mp3</label>
+        <input type="text" name="link" class="form-control">
+        <span class="danger-text hidden-text"></span>
+
+    </div>
+    <div>
+        <label></label>
+        <input type="button" value="submit" name="btn-submit" class="form-control">
+        <input type="reset" value="reset" name="reset"  class="form-control">
+    </div>
+</form>
+
+    <script src="taobaihat.js">
+    // document.forms['register-form']['btn-submit'].onclick=function () {
+    //     var txtName = document.forms['register-form']['name'];
+    //     var txtdescription = document.forms['register-form']['description'];
+    //     var txtsinger = document.forms['register-form']['singer'];
+    //     var txtauthor = document.forms['register-form']['author'];
+    //     var txtthumbnail = document.forms['register-form']['thumbnail'];
+    //     var txtlink = document.forms['register-form']['link'];
+    //     var listsong={
+    //         name: txtName.value,
+    //         description: txtdescription.value,
+    //         singer: txtsinger.value,
+    //         author: txtauthor.value,
+    //         thumbnail: txtthumbnail.value,
+    //         link:txtlink.value
+    //     };
+    //     var xhlHttpRequest = new XMLHttpRequest();
+    //     xhlHttpRequest.onreadystatechange = function () {
+    //         if (this.readyState === 4 && this.status === 201) {
+    //             var member = JSON.parse(this.responseText);
+    //             alert('create song:'+member.name);
+    //         }
+    //     };
+    //     xhlHttpRequest.open('POST', 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs', true);
+    //     xhlHttpRequest.setRequestHeader("Content-type", "application/json");
+    //     xhlHttpRequest.setRequestHeader("Authorization", 'Basic '+localStorage.getItem('mytoken'));
+    //     xhlHttpRequest.send(JSON.stringify(listsong));
+    // }
+
+
+</script>
+</body>
+</html>
