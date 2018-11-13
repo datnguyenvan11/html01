@@ -1,0 +1,21 @@
+/*.danger-text {*/
+    /*color: red;*/
+
+
+/*}*/
+/*.success-text{*/
+    /*color: green;*/
+
+
+
+/*}*/
+
+/*.hidden-text {*/
+    /*display: none;*/
+/*}*/
+.error {
+    color: red;
+}
+input.error{
+    border-color: red ;
+}
